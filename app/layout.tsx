@@ -28,7 +28,7 @@ export default function RootLayout({
 				}}
 			>
 				<Navbar />
-				<div className='absolute w-full flex justify-center mt-20 ml-4 overflow-y-scroll box-content top-0 bottom-0 left-0 -right-5'>
+				<div className='absolute w-full flex justify-center ml-4 overflow-y-scroll box-content top-28 bottom-0 left-0 -right-5'>
 					{children}
 				</div>
 			</body>
