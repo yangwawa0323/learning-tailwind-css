@@ -1,0 +1,36 @@
+.alertContainer {
+	margin-top: 20%;
+}
+.alert {
+	display: flex;
+	max-width: 24rem;
+	height: fit-content;
+	margin: 0 auto;
+	padding: 1.5rem;
+	border-radius: 0.5rem;
+	background-color: #fff;
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+		0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.alertLogoWrap {
+	flex-shrink: 0;
+}
+.alertLogo {
+	height: 3rem;
+	width: 3rem;
+}
+.alertBody {
+	margin-left: 1.5rem;
+	padding-top: 0.25rem;
+}
+.alertTitle {
+	color: #1a202c;
+	font-size: 1.25rem;
+	line-height: 1.25;
+	font-weight: 500;
+}
+.alertMessage {
+	color: #718096;
+	font-size: 1rem;
+	line-height: 1.5;
+}
