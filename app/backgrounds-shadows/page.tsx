@@ -11,12 +11,14 @@ const BackgroundShadows = () => {
 			></div>
 
 			{/* Gradients */}
-			<div className='text-white h-12 w-30 bg-gradient-to-bl from-slate-800 to-red-300'>
+			<div className='text-white text-center leading-10  h-12 w-30 bg-gradient-to-bl from-slate-800 to-red-300'>
 				Click me
 			</div>
 
 			{/* Shadows */}
-			<div className='shadow-lg bg-red-400 '>Submit</div>
+			<div className='shadow-lg bg-red-400 flex justify-center items-center'>
+				Submit
+			</div>
 			{/* Mix Blend */}
 			<div className='h-20 w-full'></div>
 		</div>
