@@ -1,0 +1,46 @@
+import React from 'react';
+
+const EmailSubscribe = () => {
+	return (
+		// Background Container
+		<div>
+			{/* Card */}
+			<div>
+				{/* Flex Container */}
+				<div>
+					{/* Image */}
+					<img
+						src='/assets/img/image.jpg'
+						alt=''
+					/>
+					{/* Content */}
+					<div>
+						<h2>Get diet and fitness tips in your inbox</h2>
+
+						<p>
+							Eat better and exercise better. Sign up for the Diet&Fitness
+							newsletter.
+						</p>
+
+						<div>
+							<input
+								type='text'
+								placeholder='Enter your email address'
+							/>
+
+							<button
+								className='px-5 py-3 bg-lime-500 rounded-md
+                                hover:bg-lime-700 hover:text-white duration-200
+                            '
+							>
+								Subcribe
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default EmailSubscribe;
