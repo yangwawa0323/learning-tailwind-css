@@ -1,0 +1,130 @@
+import React from 'react';
+
+const LoginModal = () => {
+	return (
+		//    Global Container
+		<div>
+			{/* Card Container */}
+			<div>
+				{/* Left Side */}
+				<div>
+					{/* Top Content */}
+					<h2>Log In</h2>
+					<p>
+						Log in to your account to upload or download pictures, videos or
+						music.
+					</p>
+					<input
+						type='text'
+						placeholder='Enter your email address'
+					/>
+
+					{/* Middle Content */}
+					<div>
+						<div>Forgot password</div>
+
+						<button>
+							<span>Next</span>
+							<svg
+								xmlns='http://www.w3.org/2000/svg'
+								viewBox='0 0 24 24'
+								stroke-width='1.5'
+								stroke='#ffffff'
+								fill='none'
+								stroke-linecap='round'
+								stroke-linejoin='round'
+							>
+								<path
+									stroke='none'
+									d='M0 0h24v24H0z'
+									fill='none'
+								/>
+								<line
+									x1='5'
+									y1='12'
+									x2='19'
+									y2='12'
+								/>
+								<line
+									x1='13'
+									y1='18'
+									x2='19'
+									y2='12'
+								/>
+								<line
+									x1='13'
+									y1='6'
+									x2='19'
+									y2='12'
+								/>
+							</svg>
+						</button>
+					</div>
+
+					{/* Border */}
+					<div></div>
+
+					{/* Bottom Content */}
+					<p>or log in with</p>
+
+					{/* Bottom Buttons Container */}
+					<div>
+						<button>
+							<img
+								src='/assets/img/demo/login-modal/facebook.png'
+								alt=''
+							/>
+							<span>Facebook</span>
+						</button>
+						<button>
+							<img
+								src='/assets/img/demo/login-modal/google.png'
+								alt=''
+							/>
+							<span>Google</span>
+						</button>
+					</div>
+				</div>
+
+				{/* Right Side */}
+				<img
+					src='/assets/img/demo/login-modal/image.jpg'
+					alt=''
+				/>
+
+				{/* Close Button */}
+				<div>
+					<svg
+						xmlns='http://www.w3.org/2000/svg'
+						viewBox='0 0 24 24'
+						stroke-width='1.5'
+						stroke='currentColor'
+						fill='none'
+						stroke-linecap='round'
+						stroke-linejoin='round'
+					>
+						<path
+							stroke='none'
+							d='M0 0h24v24H0z'
+							fill='none'
+						/>
+						<line
+							x1='18'
+							y1='6'
+							x2='6'
+							y2='18'
+						/>
+						<line
+							x1='6'
+							y1='6'
+							x2='18'
+							y2='18'
+						/>
+					</svg>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default LoginModal;

@@ -62,7 +62,7 @@ export default function Home() {
 						<Link href='/dark-mode'>Dark Mode</Link>
 					</li>
 					<li className='text-lg border rounded-md  p-2 my-4'>
-						<Link href='/email-subscribe'>Email subscribe</Link>
+						<Link href='/demos/email-subscribe'>Email subscribe</Link>
 					</li>
 				</ul>
 			</div>

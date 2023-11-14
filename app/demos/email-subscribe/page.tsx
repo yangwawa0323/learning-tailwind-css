@@ -10,7 +10,7 @@ const EmailSubscribe = () => {
 				<div className='flex flex-col md:flex-row object-fill'>
 					{/* Image */}
 					<img
-						src='/assets/img/image.jpg'
+						src='/assets/img/demo/email-subscribe/image.jpg'
 						alt=''
 						className='hover:scale-105 h-80 md:h-60 rounded-l-xl'
 					/>
