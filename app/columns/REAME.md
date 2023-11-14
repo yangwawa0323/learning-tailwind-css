@@ -40,7 +40,7 @@ break-after-column break-after: column;
 
 ## Break Before
 
-reak-before-auto break-before: auto;
+break-before-auto break-before: auto;
 break-before-avoid break-before: avoid;
 break-before-all break-before: all;
 break-before-avoid-page break-before: avoid-page;
