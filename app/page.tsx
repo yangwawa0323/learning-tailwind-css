@@ -61,10 +61,14 @@ export default function Home() {
 					<li className='text-lg border rounded-md  p-2 my-4'>
 						<Link href='/dark-mode'>Dark Mode</Link>
 					</li>
-					<li className='text-lg border rounded-md  p-2 my-4'>
+					<li className='bg-cyan-100 text-lg border rounded-md shadow-lg  p-2 my-4'>
 						<Link href='/demos/email-subscribe'>Email subscribe</Link>
 					</li>
+					<li className='bg-cyan-100 text-lg border rounded-md shadow-lg p-2 my-4'>
+						<Link href='/demos/login-modal'>Login modal</Link>
+					</li>
 				</ul>
+				<div className='w-full h-10'></div>
 			</div>
 		</main>
 	);
