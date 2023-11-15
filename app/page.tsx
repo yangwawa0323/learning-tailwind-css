@@ -67,6 +67,9 @@ export default function Home() {
 					<li className='bg-cyan-100 text-lg border rounded-md shadow-lg p-2 my-4'>
 						<Link href='/demos/login-modal'>Login modal</Link>
 					</li>
+					<li className='bg-cyan-100 text-lg border rounded-md shadow-lg p-2 my-4'>
+						<Link href='/demos/product-modal'>Product modal</Link>
+					</li>
 				</ul>
 				<div className='w-full h-10'></div>
 			</div>

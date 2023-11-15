@@ -7,10 +7,6 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    screens: {
-
-    },
-
     extend: {
       screens: {
         '3xl': '1880px',

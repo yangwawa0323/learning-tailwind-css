@@ -1,0 +1,74 @@
+import React from 'react';
+
+const ProductModal = () => {
+	return (
+		<div className=''>
+			{/* Card Container */}
+			<div className=''>
+				{/* Image Div */}
+				<div className=''>
+					<img
+						src='/assets/img/demo/product-modal/headphone.png'
+						alt=''
+						className=''
+					/>
+				</div>
+
+				<div className=''>
+					{/* Content */}
+					<div className=''>
+						{/* Label & Title Container */}
+						<div className=''>Free Shipping</div>
+					</div>
+
+					{/* Title */}
+					<div className=''>Razer Kraken Kitty Edt Gaming Headset Quartz</div>
+					{/* Price Container */}
+					<div className=''>
+						<p className=''>$799</p>
+						<p className=''>$599</p>
+						<p className=''>
+							This offer is valid until April 3rd or as long as stock lasts!
+						</p>
+					</div>
+
+					{/* Button Group */}
+					<div className=''>
+						<button className=''>
+							<div className=''>Add to cart</div>
+						</button>
+					</div>
+
+					{/* Stock */}
+					<div className=''>
+						<div className=''></div>
+						<div className=''>50+ pcs. in stock</div>
+					</div>
+
+					{/* Bottom Buttons Container */}
+					<div className=''>
+						<button className=''>
+							<img
+								src='/assets/img/demo/product-modal/weight.png'
+								alt=''
+								className=''
+							/>
+							<span>Add to cart</span>
+						</button>
+
+						<button className=''>
+							<img
+								src='/assets/img/demo/product-modal/heart.png'
+								alt=''
+								className=''
+							/>
+							<span>Add to wishlist</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default ProductModal;
