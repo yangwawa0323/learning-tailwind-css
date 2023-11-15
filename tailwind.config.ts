@@ -7,7 +7,20 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+
+    },
+
     extend: {
+      screens: {
+        '3xl': '1880px',
+      },
+      colors: {
+        primary: '#ffbe0b',
+        secondary: '#8338ec',
+        'dark-primary': '#22223b',
+        'dark-seconday': '#4a4e69',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
